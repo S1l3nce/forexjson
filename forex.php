@@ -25,8 +25,8 @@ function get_forex() {
                   "last_update_timestamp" => date("Y-m-d H:i:s"));
     
 
-    //for($i=0;$i<count($currencies);$i++) {
-    for($i=0;$i<1;$i++) {
+    for($i=0;$i<count($currencies);$i++) {
+    // for($i=0;$i<1;$i++) { // use it when testing
         for($j=0;$j<count($from);$j++) {
     
     
