@@ -3,5 +3,5 @@
 while :;
 do
     php forex.php
-    sleep 3600
+    sleep 10
 done;
